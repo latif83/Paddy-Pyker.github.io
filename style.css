@@ -1,17 +1,22 @@
 body,html{
  height: 100%;
+  width:100%;
+
 	
+}
+#body{
+	height: 100%;
+	width: 100%;
 }
 
 
 .videobg {
  position: absolute;
- top: 0;
- left: 0;
+	top: 0;
+	left: 0;
+    width: 100%;
  z-index: -1;
- min-height: 100%;
- min-width: 100%;
-  -webkit-transform-style: preserve-3d; 
+ min-height: 50%;
 }
 
 .videobg video {
@@ -19,24 +24,24 @@ body,html{
   background-color: #151412;
   top: 0;
   left: 0;
-  min-width: 100%;
+  width: 100%;
   min-height: 100%;
-  height: auto;
   z-index: -1;
+ -webkit-transform-style: preserve-3d; 
   object-fit: cover; 
 }
 
 #header {
     text-align: center;
     font-weight: bold;
-    color: #BCD7E0;
-    font-family: Cambria, "Hoefler Text", "Liberation Serif",Times, "Times New Roman", serif;
-    text-transform: capitalize;
-    position: relative;
-    font-size: 50px;
+    color:#FFFFFF;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    text-transform: uppercase;
+	text-shadow: 1px 1px 0px #C7BB1D;
+    font-size: 4vw;
 }
 .discription {
-    color:#FFFFFF;
+    color:#7EBAC8;
     text-align: center;
     font-size: x-large;
 }
@@ -52,12 +57,12 @@ body,html{
 	color: white;
 	text-decoration: none;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 250%;
+	font-size: 4vw;
 	font-weight: bold;
-	padding:20px;
+	padding:2%;
 	border: medium solid #C7BB1D;
-	border-radius: 30px;
-	margin: 50px;
+	border-radius: 20px;
+	margin: 3%;
 	
 	
 }
@@ -107,7 +112,7 @@ body,html{
 }
 
 .list_block {
-	width: 80%;
+	width: 100%;
 	height: 4%;
 	margin: 0 auto;
 }
@@ -123,7 +128,6 @@ body,html{
 	border: medium solid #C7BB1D;
 	border-radius: 5px;
 	padding: 10px;
-	margin: 30px;
 	color: black;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-weight: bold;
@@ -134,3 +138,8 @@ body,html{
 }
 
 
+
+#list {
+	text-align: center;
+	
+}
