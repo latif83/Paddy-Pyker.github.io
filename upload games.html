@@ -2,8 +2,14 @@
   <html>
   <head>
   <meta charset="utf-8">
+  <meta name="Description" content="Upload games to Kaneadua servers">
+  <meta name="author" content="paddy pyker">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="Refresh" content="60">
+	  
   <title>Upload Games</title>
   <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon"  href="assets/kaneadua.gif">
 
   </head>
 
@@ -18,17 +24,20 @@
 
   <script type="text/javascript">
 
-      var rand = Math.floor(Math.random()*4);
+      var rand = Math.floor(Math.random()*5);
 
       var  x = document.getElementById("src");
 
       switch(rand){
-          case 0 :
-          case 1 :
-          case 4 : x.setAttribute('src','vid1.webm');
+          case 0 : x.setAttribute('src','assets/vid5.webm');
+          break;
+          case 1 : x.setAttribute('src','assets/vid1.webm');
+          break;
+          case 2 : x.setAttribute('src','assets/vid4.webm');
            break;
-          case 2: 
-          case 3: x.setAttribute('src','vid2.webm');
+          case 3: x.setAttribute('src','assets/vid2.webm');
+          break;
+          case 4: x.setAttribute('src','assets/vid3.webm');
       }
 
   </script>
@@ -67,20 +76,45 @@
 				  <li><a href="">Bundles</a></li>
 			  </ul>
 			</div>
-			<article class="articles"> Article 1 </article>
-			 <article class="articles"> Article 2 </article>
+			<article class="articles">
+				<img id="pic1" src="assets/article1.png" alt="">
+			</article>
+			 <article class="articles" id="text1">
+				 <h2><b>Upload Your Game</b></h2>
+				 <p id="para1">Upload your game to <strong>kaneadua.com</strong> for free. We host your game, along with your game's screenshots and other downloads. Your downloads are always available and always fast.</p>
+			</article>
 			<hr class="rule">
-			<article class="articles"> Article 3 </article>
-			<article class="articles"> Article 4 </article>
+			<article class="articles" id = "text2"> 
+				 <h2><b>Design Your Game's Page</b></h2>
+				<p id="para2">Create a custom page for your game where people buy or download your game. You pick the colors, fonts, images and videos and customise other cool things</p>
+			</article>
+			<article class="articles">
+				<img id="pic2" src="assets/article4.png" alt="">
+			</article>
 			<hr class="rule">
-			<article class="articles"> Article 5 </article>
-			<article class="articles"> Article 6 </article>
+			<article class="articles"> 
+				<img id="pic3" src="assets/article5.png" alt=""> 
+			</article>
+			<article class="articles" id="text3"> 
+				<h2><b>Track Your Game</b></h2>
+				<p id="para3">Keep tabs on how people are viewing your game with detailed analytics convering views, downloads and purchases. Want to run a promotion? Generate download keys to give people access to your game.</p>
+			</article>
 			<hr class="rule">
-			<article class="articles"> Article 7 </article>
-			<article class="articles"> Article 8 </article>
+			<article class="articles" id="text4">
+				<h2><b>Flash, Unity, Java, HTML5</b></h2>
+				<p id="para4">Make money from your browser by hosting it on <strong>kaneadua.com </strong>Your game is embedded in the browser and players can donate any amount they want if they love your game.</p>
+			</article>
+			<article class="articles"> 
+				<img id="pic4" src="assets/article8.png" alt="">
+			</article>
 			<hr class="rule">
-			<article class="articles"> Article 9 </article>
-			<article class="articles"> Article 10 </article>
+			<article class="articles">
+				<img id="pic5" src="assets/article9.png" alt=""> 
+			</article>
+			<article class="articles" id="text5">
+				<h2><b>Host A Sale</b></h2>
+				<p id="para5">Promote your games and get more purchases by offering your games at a discounted price for any period of time.</p>
+			</article>
 	    </section>
 			
 	    </section> 

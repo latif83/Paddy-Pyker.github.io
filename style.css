@@ -1,14 +1,11 @@
 body,html{
  height: 100%;
-  width:100%;
-
-
-	
+  width:100%;	
 }
+
 #body{
 	height: 100%;
-	width: 100%;
-	
+	width: 100%;	
 }
 
 
@@ -153,11 +150,33 @@ body,html{
 .articles {
 	width:30vw;
 	height: 230px;
-	border: thick solid violet;
+	
 	float: left;
 	margin: 25px;
 	margin-left: 4vw;
 	margin-right: 4vw;
+	-moz-box-shadow: 0px 0px 10px #777777; 
+	-webkit-box-shadow: 0px 0px 10px #777777; 
+	box-shadow: 0px 0px 10px #777777;
+ 
 }
 
 
+
+
+
+h2 {
+	text-align: center;
+	font-family: Times "Times New Roman", "serif";
+	
+}
+
+#para1,#para2,#para3,#para4,#para5 {
+	text-align: center;
+	padding: 10px;
+}
+
+#pic1,#pic2,#pic3,#pic4,#pic5 {
+	width: inherit;
+	height: inherit;
+}
