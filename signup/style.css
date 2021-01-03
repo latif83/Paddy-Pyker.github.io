@@ -84,8 +84,8 @@ h2 {
 } 
 
 .TermsAndConditions.success .fa-smile-o {
-    color: blue;
-    visibility: visible;
+    /*color: blue;
+    visibility: visible;*/
 }
 
 .TermsAndConditions.error  {
@@ -102,13 +102,13 @@ h2 {
 }
 
 .TermsAndConditions.error .fa-frown-o {
-    color: red;
-    visibility: visible;
+  /*  color: red;
+    visibility: visible;*/
 }
 
 .TermsAndConditions.error2 .fa-frown-o {
-    color: red;
-    visibility: visible;
+    /*color: red;
+    visibility: visible;*/
 }
 
 
